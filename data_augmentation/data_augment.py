@@ -74,7 +74,7 @@ if __name__ == "__main__":
         img_name = img_name_ext.split(".")[0]
         print(img_name)
         img_path = root_file + "\\" + img_name_ext
-        # img_path = "2007_000187.jpg"
+		
         img = cv2.imread(img_path)
         cv2.imshow("original_img.jpg", img)
 
